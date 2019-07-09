@@ -11,7 +11,7 @@
 	      <property name="hibernate.ogm.datastore.username" value="${env.MONGODBWOMUSERNAME}"/>
 	      <property name="hibernate.ogm.datastore.password" value="${env.MONGODBWOMPASSWORD}"/>
 	      <property name="hibernate.ogm.datastore.provider" value="MONGODB"/>
-	      <property name="hibernate.ogm.datastore.create_database" value="true"/>
+
 	      
 	    </properties>
 	  </persistence-unit>
