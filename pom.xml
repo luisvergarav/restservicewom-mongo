@@ -8,20 +8,9 @@
   <name>RestServiceWom Maven Webapp</name>
   <url>http://maven.apache.org</url>
 
-  
-   <dependencyManagement>
-    <dependencies>
-     
-    
-        <dependency>
-      <groupId>org.hibernate.ogm</groupId>
-      <artifactId>hibernate-ogm-bom</artifactId>
-      <type>pom</type>
-      <version>4.2.0.Beta1</version>
-      <scope>import</scope>
-    </dependency>
-    </dependencies>
-</dependencyManagement>
+
+
+
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
@@ -77,11 +66,11 @@
     <version>1.2.17</version>
 </dependency>
 
-
- <dependency>
+<dependency>
     <groupId>org.hibernate.ogm</groupId>
     <artifactId>hibernate-ogm-mongodb</artifactId>
-  </dependency>
+    <version>5.4.0.Final</version>
+</dependency>
 </dependencies>
  
 
