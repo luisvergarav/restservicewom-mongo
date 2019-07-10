@@ -4,7 +4,6 @@
 	    <class>domain.model.entities.Order</class>
 	    <properties>
 	      <property name="hibernate.transaction.jta.platform" value="org.hibernate.service.jta.platform.internal.JBossAppServerJtaPlatform"/>
-	      
 	      <property name="hibernate.ogm.datastore.database" value="${env.MONGODBWOM}"/>
 	      <property name="hibernate.ogm.datastore.host" value="${env.MONGODBWOMHOST}"/>
 	      <property name="hibernate.ogm.datastore.port" value="27017"/>
@@ -12,7 +11,6 @@
 	      <property name="hibernate.ogm.datastore.password" value="${env.MONGODBWOMPASSWORD}"/>
 	      <property name="hibernate.ogm.datastore.provider" value="MONGODB"/>
 	      <property name="hibernate.ogm.datastore.create_database" value="true"/>
-	      
 	    </properties>
 	  </persistence-unit>
 	</persistence>
