@@ -11,6 +11,7 @@
 	      <property name="hibernate.ogm.datastore.password" value="${env.MONGODBWOMPASSWORD}"/>
 	      <property name="hibernate.ogm.datastore.provider" value="MONGODB"/>
 	      <property name="hibernate.ogm.datastore.create_database" value="true"/>
+	      <property name="hibernate.ogm.mongodb.authentication_database" value="${env.MONGODBWOM}"/>
 	    </properties>
 	  </persistence-unit>
 	</persistence>
